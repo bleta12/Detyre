@@ -3,6 +3,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
+    flex-direction: row;
 }
 .headeri{
     display: flex;
@@ -63,4 +64,51 @@ main{
     height: 50px;
     justify-content: space-between;
     color: lightseagreen;
+}
+.fotografit{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.rubrika{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+}
+.img{
+    width: 100%;
+    height: 75%;
+    background-image: url("img-01.jpg");
+    background-size: 100% 100%;
+}
+.views_date{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+}
+.permifooter{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 85%;
+    height: 50px;
+    justify-content: space-between;
+}
+.numrat{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+.btn{
+    height: 30px;
+    width: 30px;
+    border: inset 0px;
+}
+.btn_prev_next{
+    height: 30px;
+    border: inset 0px;
 }
