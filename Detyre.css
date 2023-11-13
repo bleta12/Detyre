@@ -1,3 +1,35 @@
-header{
-  
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.headeri{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: rgba(0, 174, 255, 0.452);
+    font-weight: bold;
+    align-items: center;
+}
+.catalog :hover{
+    cursor: pointer;
+}
+header .catalog {
+    margin-left: 10px;
+}
+ul li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 3px solid red;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+header li {
+    margin-left: 10px;
 }
